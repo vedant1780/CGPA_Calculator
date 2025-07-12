@@ -171,8 +171,8 @@ fun GradeTextField(grade: String, onValueChange: (String) -> Unit) {
             unfocusedIndicatorColor = Color.Transparent,
             focusedTextColor = Color.White,
             unfocusedTextColor = Color.White,
-            unfocusedContainerColor = Color(0xff7e57c2),
-            focusedContainerColor = Color(0xff7e57c2)
+            unfocusedContainerColor = Color(0xFF689A9A),
+            focusedContainerColor = Color(0xFF689A9A)
         ),
         shape = RoundedCornerShape(15.dp),
         textStyle = TextStyle(fontSize = 12.sp, color = Color.White)
