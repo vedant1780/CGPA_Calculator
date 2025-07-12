@@ -123,7 +123,7 @@ fun CGPA(semesters:MutableList<Semester>) {
                     grade4=""
                     credit4=null
 
-                                 }, colors = ButtonDefaults.buttonColors(Color(0xffbeabe0)), shape = RoundedCornerShape(15.dp)) {
+                                 }, colors = ButtonDefaults.buttonColors(Color(0xFF689A9A)), shape = RoundedCornerShape(15.dp)) {
                     Text("Calculate CGPA", fontSize = 16.sp, color = Color.Black)
                 }
                 Surface(modifier = Modifier.width(160.dp).wrapContentHeight(), color = Color(0xff263238), shape = RoundedCornerShape(15.dp)) {
@@ -207,7 +207,7 @@ fun SubjectText(Subject: String) {
         text = Subject, modifier = Modifier
             .fillMaxWidth()
             .padding(10.dp), style = TextStyle(
-            fontSize = 16.sp, fontFamily = FontFamily.SansSerif, color = Color(0xFF000000)
+            fontSize = 16.sp, fontFamily = FontFamily(Font(R.font.poppins_bold)), color = Color(0xFF000000)
         )
     )
 
